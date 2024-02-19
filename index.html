@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Decodificador</title>
+    </head>
+    <body>
+        <header>
+            <img src="/assets/Logo.png" alt="logo">
+        </header>   
+        <main>
+            <section id="entrada">
+                <form >
+                    <input type="text" name="texto" id="texto" placeholder="Digite seu texto">
+                    <span id="informacao">
+                        <img src="./assets/bi_exclamation-circle-fill.png" alt="exclamação">
+                        Apenas letras minúsculas e sem acento.
+                    </span>
+                    <div id="containerBotao">
+                        <button type="button" id="criptografar">Criptografar</button>
+                        <button type="button" id="descriptografar">Descriptografar</button>
+                    </div>
+                </form>
+            </section>
+            <section  id="saida">
+                <img src="./assets/High quality products 1 1.png" alt="procurando texto">
+                <div id="textosSaida">
+                    <span id="nenhumaMensagem">Nenhuma mensagem encontrada</span>
+                    <span id="textoSaida">Digite um texto que você deseja criptografar ou descriptografar.</span>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
