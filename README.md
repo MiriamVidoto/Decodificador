@@ -2,6 +2,8 @@
 
 Este projeto foi desenvolvido como parte do Programa ONE Iniciante em Programação, uma iniciativa da Alura junto a Oracle para desafiar e incentivar os desenvolvedores a criarem projetos interessantes ao longo de um determinado período de tempo.
 
+Veja aqui a aplicação: https://miriamvidoto.github.io/Decodificador/
+
 ## Chaves de Criptografia
 
 As "chaves" de criptografia que utilizamos são:
